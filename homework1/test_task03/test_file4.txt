@@ -1,0 +1,4 @@
+string
+4.2 #float
+True
+[4, 4, 1]
