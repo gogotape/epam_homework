@@ -1,0 +1,2 @@
+1. 0 is not power of 2
+2. non integer input can cause the failure of program
