@@ -9,5 +9,3 @@ def test_positive_case():
 def test_positive_case1():
     """Testing list with len = 1"""
     assert find_maximal_subarray_sum([1], 1)
-
-
