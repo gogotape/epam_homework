@@ -1,5 +1,4 @@
 import pytest
-
 from calculator.calc import check_power_of_2
 
 
@@ -20,4 +19,4 @@ def test_negative_case2():
 
 def test_negative_case3():
     """Testing that non-int input() will not crash the program"""
-    assert 'The input value must be an integer'
+    assert not check_power_of_2('some string')
