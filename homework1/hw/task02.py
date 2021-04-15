@@ -10,10 +10,4 @@ from typing import Sequence
 
 
 def check_fibonacci(data: Sequence[int]) -> bool:
-    if data[0] not in [0, 1]:
-        return False
-    for i in range(len(data) - 2):
-        if data[i] + data[i + 1] != data[i + 2]:
-            return False
-    else:
-        return True
+    ...
