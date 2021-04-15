@@ -1,5 +1,4 @@
 import calculator.calc
-import pytest
 
 
 def test_positive_case():
