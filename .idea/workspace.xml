@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73425edd-f119-433e-8973-916e0dd936a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/homework2/task01/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework2/task01/hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2/test_task03/test_task03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +36,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework1/task03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework2/test_task05" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\EPAM\epam_homework\homework1\task03" />
-      <recent name="E:\EPAM\epam_homework\homework1\test_task03" />
-      <recent name="E:\EPAM\epam_homework\homework1\test_task02" />
-      <recent name="E:\EPAM\epam_homework\homework1\task02" />
+      <recent name="E:\EPAM\epam_homework\homework2\test_task05" />
+      <recent name="E:\EPAM\epam_homework\homework2\task05" />
+      <recent name="E:\EPAM\epam_homework\homework2\task04" />
+      <recent name="E:\EPAM\epam_homework\homework2\test_task04" />
+      <recent name="E:\EPAM\epam_homework\homework2\task03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_task01.py">
-    <configuration name="hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_task04.py">
+    <configuration name="hw4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/task01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/task04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework2/task01/hw1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework2/task04/hw4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hw5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework1/task05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/task05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework1/task05/task05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework2/task05/hw5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,35 +91,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in task05.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_task03.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="homework-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework1/test_task05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/test_task03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework1/test_task05/task05.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_task01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="homework-repository" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/test_task01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework2/test_task01/test_task01.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework2/test_task03/test_task03.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -126,24 +112,40 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework1/test_task04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/test_task04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework1/test_task04/test_task04.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework2/test_task04/test_task04.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_task05.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework-repository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework2/test_task05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework2/test_task05/test_task05.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_task01.py" />
-        <item itemvalue="Python.hw1" />
-        <item itemvalue="Python tests.pytest in task05.py" />
-        <item itemvalue="Python.task05" />
         <item itemvalue="Python tests.pytest in test_task04.py" />
+        <item itemvalue="Python.hw4" />
+        <item itemvalue="Python tests.pytest in test_task05.py" />
+        <item itemvalue="Python.hw5" />
+        <item itemvalue="Python tests.pytest in test_task03.py" />
       </list>
     </recent_temporary>
   </component>
