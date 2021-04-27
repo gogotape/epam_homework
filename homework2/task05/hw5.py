@@ -31,6 +31,5 @@ def custom_range(s, *args):
         for i in range(s.index(args[0]), s.index(args[1]), args[2]):
             out.append(s[i])
     else:
-        print("Expected 1, 2 or 3 positional arguments, but", len(args), 'got')
+        print("Expected 1, 2 or 3 positional arguments, but", len(args), "got")
     return out
-
