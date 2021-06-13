@@ -2,7 +2,7 @@ import json
 import time
 from ast import literal_eval
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
-from threading import RLock
+from threading import Lock
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,7 +13,6 @@ all_urls_of_companies = list()
 all_htmls_of_companies = list()
 all_htmls_of_main_pages = list()
 all_companies = dict()
-lock = RLock()
 
 
 def get_dollar_exchange_rate() -> float:
@@ -21,6 +20,9 @@ def get_dollar_exchange_rate() -> float:
     soup = BeautifulSoup(rates, "lxml")
     dollar_rate = float(soup.find(text="Доллар США").next.text.replace(",", "."))
     return dollar_rate
+
+
+dollar_rate = get_dollar_exchange_rate()
 
 
 def get_html(url: str) -> str:
@@ -34,6 +36,7 @@ def get_all_urls_of_main_pages() -> list:
 
 
 def add_html_to_all_htmls_of_main_pages(url):
+
     html = get_html(url)
     all_htmls_of_main_pages.append(html)
 
@@ -101,7 +104,7 @@ def get_company_data_from_company_page(html: str) -> str:
             }
         )
     )
-
+    # some code
     return data
 
 
@@ -126,11 +129,11 @@ def write_company_growth_info_to_txt(html: str):
 
 
 def write_to_txt_main_company_info(html: str):
-    data = get_company_data_from_company_page(html)
-    with lock:
+    with Lock():
+        data = get_company_data_from_company_page(html)
         with open("temporary_files/stocks_info.txt", "a", encoding="utf-8") as fi:
             fi.write(str(data) + "\n")
-            #   print(data.split("***")[0], "successfully processed")
+            print(data.split("***")[0], "successfully processed")
 
 
 def create_dict_with_all_companies_data(file: str):
@@ -181,6 +184,13 @@ def add_property_of_growth_to_company(growth_dict: dict):
             all_companies[key]["growth_of_company"] = 0
 
 
+def convert_price_of_company_dollar_to_rubles(company):
+    global all_companies, dollar_rate
+    all_companies[company]["price_of_company"] = round(
+        dollar_rate * all_companies[company]["price_of_company"] * 10 ** 9, 0
+    )
+
+
 def find_top_10_companies_by_key(data: dict, key: str, reverse=True) -> list:
     result = sorted(data.values(), key=lambda x: float((x[key])), reverse=reverse)[:10]
     return result
@@ -214,7 +224,7 @@ def main():
     print(f"Successfully got {len(all_urls_of_companies)} htmls for companies")
 
     print("Processing all htmls...")
-    with ProcessPoolExecutor() as pool:
+    with ProcessPoolExecutor(max_workers=6) as pool:
         pool.map(write_to_txt_main_company_info, all_htmls_of_companies)
 
     print("Processing all htmls of main pages for saving growth info...")
@@ -223,6 +233,9 @@ def main():
 
     create_dict_with_all_companies_data("temporary_files/stocks_info.txt")
     add_property_of_growth_to_company(create_dict_with_growths_of_companies())
+
+    with ThreadPoolExecutor() as pool:
+        pool.map(convert_price_of_company_dollar_to_rubles, all_companies)
 
     with open("output/top_10_current_price.json", "w") as fi:
         json.dump(
