@@ -1,0 +1,122 @@
+[
+   {
+      "name": "Vornado Realty Trust",
+      "short_name": "VORNADO REALTY TRUST",
+      "code": "VNO",
+      "price_of_company": 9.54,
+      "current_price": 50.33,
+      "high_week_52": 50.9,
+      "low_week_52": 29.8,
+      "pe": -893.45,
+      "potential_profit": 70.81,
+      "growth_of_company": 13.87
+   },
+   {
+      "name": "Chevron Corp.",
+      "short_name": "CHEVRON",
+      "code": "CVX",
+      "price_of_company": 206.77,
+      "current_price": 108.48,
+      "high_week_52": 113.1,
+      "low_week_52": 65.17,
+      "pe": -427.45,
+      "potential_profit": 73.55,
+      "growth_of_company": 7.07
+   },
+   {
+      "name": "Devon Energy Corp.",
+      "short_name": "DEVON ENERGY",
+      "code": "DVN",
+      "price_of_company": 20.11,
+      "current_price": 29.41,
+      "high_week_52": 31.99,
+      "low_week_52": 7.74,
+      "pe": -167.13,
+      "potential_profit": 313.31,
+      "growth_of_company": 116.93
+   },
+   {
+      "name": "ExxonMobil Corp. (Exxon Mobil)",
+      "short_name": "EXXONMOBIL",
+      "code": "XOM",
+      "price_of_company": 263.27,
+      "current_price": 62.74,
+      "high_week_52": 64.02,
+      "low_week_52": 31.11,
+      "pe": -125.36,
+      "potential_profit": 105.79,
+      "growth_of_company": 11.53
+   },
+   {
+      "name": "Phillips 66",
+      "short_name": "PHILLIPS 66",
+      "code": "PSX",
+      "price_of_company": 40.18,
+      "current_price": 91.7,
+      "high_week_52": 94.34,
+      "low_week_52": 43.3,
+      "pe": -76.53,
+      "potential_profit": 117.88,
+      "growth_of_company": -2.58
+   },
+   {
+      "name": "Under Armour Inc.",
+      "short_name": "UNDER ARMOUR",
+      "code": "UAA",
+      "price_of_company": 9.71,
+      "current_price": 21.1,
+      "high_week_52": 26.45,
+      "low_week_52": 8.95,
+      "pe": -64.5,
+      "potential_profit": 195.53,
+      "growth_of_company": 130.43
+   },
+   {
+      "name": "Incyte Corp.",
+      "short_name": "INCYTE",
+      "code": "INCY",
+      "price_of_company": 18.82,
+      "current_price": 87.53,
+      "high_week_52": 110.37,
+      "low_week_52": 75.52,
+      "pe": -63.09,
+      "potential_profit": 46.15,
+      "growth_of_company": -8.81
+   },
+   {
+      "name": "Twitter",
+      "short_name": "TWITTER",
+      "code": "TWTR",
+      "price_of_company": 47.3,
+      "current_price": 60.32,
+      "high_week_52": 80.74,
+      "low_week_52": 28.23,
+      "pe": -62.1,
+      "potential_profit": 186.01,
+      "growth_of_company": 49.12
+   },
+   {
+      "name": "Under Armour Inc When Issued",
+      "short_name": "UNDER ARMOUR",
+      "code": "UA",
+      "price_of_company": 8.45,
+      "current_price": 18.27,
+      "high_week_52": 21.82,
+      "low_week_52": 8.1,
+      "pe": -55.67,
+      "potential_profit": 169.38,
+      "growth_of_company": 130.43
+   },
+   {
+      "name": "PVH Corp.",
+      "short_name": "PVH",
+      "code": "PVH",
+      "price_of_company": 7.84,
+      "current_price": 108.57,
+      "high_week_52": 121.18,
+      "low_week_52": 41.77,
+      "pe": -44.03,
+      "potential_profit": 190.11,
+      "growth_of_company": 140.69
+   }
+]

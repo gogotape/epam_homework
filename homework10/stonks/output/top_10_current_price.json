@@ -1,0 +1,122 @@
+[
+   {
+      "name": "Amazon",
+      "short_name": "AMAZON",
+      "code": "AMZN",
+      "price_of_company": 1642.54,
+      "current_price": 3349.65,
+      "high_week_52": 3553.39,
+      "low_week_52": 2503.35,
+      "pe": 79.54,
+      "potential_profit": 41.95,
+      "growth_of_company": 25.5
+   },
+   {
+      "name": "Alphabet C (ex Google)",
+      "short_name": "ALPHABET C (EX GOOGLE",
+      "code": "GOOG",
+      "price_of_company": 1657.31,
+      "current_price": 2521.6,
+      "high_week_52": 2526.99,
+      "low_week_52": 1347.01,
+      "pe": 30.01,
+      "potential_profit": 87.6,
+      "growth_of_company": 70.51
+   },
+   {
+      "name": "Alphabet A (ex Google)",
+      "short_name": "ALPHABET A (EX GOOGLE",
+      "code": "GOOGL",
+      "price_of_company": 1601.79,
+      "current_price": 2435.13,
+      "high_week_52": 2441.72,
+      "low_week_52": 1351.65,
+      "pe": 30.0,
+      "potential_profit": 80.65,
+      "growth_of_company": 65.17
+   },
+   {
+      "name": "AutoZone Inc.",
+      "short_name": "AUTOZONE",
+      "code": "AZO",
+      "price_of_company": 29.76,
+      "current_price": 1375.22,
+      "high_week_52": 1542.3,
+      "low_week_52": 1074.78,
+      "pe": 16.46,
+      "potential_profit": 43.5,
+      "growth_of_company": 21.9
+   },
+   {
+      "name": "Chipotle Mexican Grill Inc.",
+      "short_name": "CHIPOTLE MEXICAN GRILL",
+      "code": "CMG",
+      "price_of_company": 37.12,
+      "current_price": 1348.45,
+      "high_week_52": 1579.52,
+      "low_week_52": 964.5,
+      "pe": 129.05,
+      "potential_profit": 63.77,
+      "growth_of_company": 25.95
+   },
+   {
+      "name": "Mettler-Toledo International Inc.",
+      "short_name": "METTLER-TOLEDO INTERNATIONAL",
+      "code": "MTD",
+      "price_of_company": 29.31,
+      "current_price": 1300.74,
+      "high_week_52": 1342.93,
+      "low_week_52": 747.94,
+      "pe": 43.78,
+      "potential_profit": 79.55,
+      "growth_of_company": 54.14
+   },
+   {
+      "name": "BlackRock Inc.",
+      "short_name": "BLACKROCK",
+      "code": "BLK",
+      "price_of_company": 131.86,
+      "current_price": 867.26,
+      "high_week_52": 890.0,
+      "low_week_52": 515.72,
+      "pe": 20.99,
+      "potential_profit": 72.57,
+      "growth_of_company": 58.84
+   },
+   {
+      "name": "Intuitive Surgical Inc",
+      "short_name": "INTUITIVE SURGICAL",
+      "code": "ISRG",
+      "price_of_company": 98.76,
+      "current_price": 859.14,
+      "high_week_52": 893.79,
+      "low_week_52": 543.03,
+      "pe": 80.71,
+      "potential_profit": 64.59,
+      "growth_of_company": 42.62
+   },
+   {
+      "name": "Equinix Inc",
+      "short_name": "EQUINIX",
+      "code": "EQIX",
+      "price_of_company": 72.02,
+      "current_price": 822.99,
+      "high_week_52": 839.77,
+      "low_week_52": 586.73,
+      "pe": 169.88,
+      "potential_profit": 43.13,
+      "growth_of_company": 17.57
+   },
+   {
+      "name": "NVIDIA Corp.",
+      "short_name": "NVIDIA",
+      "code": "NVDA",
+      "price_of_company": 429.37,
+      "current_price": 697.0,
+      "high_week_52": 717.57,
+      "low_week_52": 348.2,
+      "pe": 51.8,
+      "potential_profit": 106.08,
+      "growth_of_company": 92.98
+   }
+]

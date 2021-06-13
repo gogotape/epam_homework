@@ -1,0 +1,122 @@
+[
+   {
+      "name": "Enphase Energy Inc",
+      "short_name": "ENPHASE ENERGY",
+      "code": "ENPH",
+      "price_of_company": 18.45,
+      "current_price": 143.5,
+      "high_week_52": 229.03,
+      "low_week_52": 37.81,
+      "pe": 125.98,
+      "potential_profit": 505.74,
+      "growth_of_company": 159.87
+   },
+   {
+      "name": "American Electric Power Co. Inc.",
+      "short_name": "AMERICAN ELECTRIC POWER",
+      "code": "AEP",
+      "price_of_company": 41.89,
+      "current_price": 84.73,
+      "high_week_52": 99.94,
+      "low_week_52": 18.17,
+      "pe": 4.67,
+      "potential_profit": 450.03,
+      "growth_of_company": -5.79
+   },
+   {
+      "name": "Merck Co.",
+      "short_name": "MERCK",
+      "code": "MRK",
+      "price_of_company": 186.09,
+      "current_price": 76.21,
+      "high_week_52": 83.81,
+      "low_week_52": 15.32,
+      "pe": 13.66,
+      "potential_profit": 447.06,
+      "growth_of_company": -7.92
+   },
+   {
+      "name": "L Brands Inc",
+      "short_name": "L BRANDS",
+      "code": "LB",
+      "price_of_company": 18.12,
+      "current_price": 65.59,
+      "high_week_52": 71.99,
+      "low_week_52": 13.18,
+      "pe": 11.45,
+      "potential_profit": 446.21,
+      "growth_of_company": 347.65
+   },
+   {
+      "name": "Tesla",
+      "short_name": "TESLA",
+      "code": "TSLA",
+      "price_of_company": 572.56,
+      "current_price": 610.12,
+      "high_week_52": 900.39,
+      "low_week_52": 181.75,
+      "pe": 299.31,
+      "potential_profit": 395.4,
+      "growth_of_company": 220.83
+   },
+   {
+      "name": "Freeport-McMoRan Inc",
+      "short_name": "FREEPORT-MCMORAN",
+      "code": "FCX",
+      "price_of_company": 59.21,
+      "current_price": 40.1,
+      "high_week_52": 46.1,
+      "low_week_52": 9.78,
+      "pe": 46.28,
+      "potential_profit": 371.37,
+      "growth_of_company": 266.07
+   },
+   {
+      "name": "Devon Energy Corp.",
+      "short_name": "DEVON ENERGY",
+      "code": "DVN",
+      "price_of_company": 20.11,
+      "current_price": 29.41,
+      "high_week_52": 31.99,
+      "low_week_52": 7.74,
+      "pe": -167.13,
+      "potential_profit": 313.31,
+      "growth_of_company": 116.93
+   },
+   {
+      "name": "Discovery Communications Inc  (A)",
+      "short_name": "DISCOVERY COMMUNICATIONS",
+      "code": "DISCA",
+      "price_of_company": 15.33,
+      "current_price": 30.14,
+      "high_week_52": 78.14,
+      "low_week_52": 19.07,
+      "pe": 9.18,
+      "potential_profit": 309.75,
+      "growth_of_company": 32.21
+   },
+   {
+      "name": "Tapestry",
+      "short_name": "TAPESTRY",
+      "code": "TPR",
+      "price_of_company": 12.02,
+      "current_price": 42.74,
+      "high_week_52": 49.67,
+      "low_week_52": 12.16,
+      "pe": 13.55,
+      "potential_profit": 308.47,
+      "growth_of_company": 198.07
+   },
+   {
+      "name": "Gap Inc.",
+      "short_name": "GAP",
+      "code": "GPS",
+      "price_of_company": 11.84,
+      "current_price": 31.29,
+      "high_week_52": 37.62,
+      "low_week_52": 9.63,
+      "pe": -11.51,
+      "potential_profit": 290.65,
+      "growth_of_company": 129.52
+   }
+]

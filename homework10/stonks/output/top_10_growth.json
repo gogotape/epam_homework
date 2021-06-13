@@ -1,0 +1,122 @@
+[
+   {
+      "name": "L Brands Inc",
+      "short_name": "L BRANDS",
+      "code": "LB",
+      "price_of_company": 18.12,
+      "current_price": 65.59,
+      "high_week_52": 71.99,
+      "low_week_52": 13.18,
+      "pe": 11.45,
+      "potential_profit": 446.21,
+      "growth_of_company": 347.65
+   },
+   {
+      "name": "Freeport-McMoRan Inc",
+      "short_name": "FREEPORT-MCMORAN",
+      "code": "FCX",
+      "price_of_company": 59.21,
+      "current_price": 40.1,
+      "high_week_52": 46.1,
+      "low_week_52": 9.78,
+      "pe": 46.28,
+      "potential_profit": 371.37,
+      "growth_of_company": 266.07
+   },
+   {
+      "name": "Tesla",
+      "short_name": "TESLA",
+      "code": "TSLA",
+      "price_of_company": 572.56,
+      "current_price": 610.12,
+      "high_week_52": 900.39,
+      "low_week_52": 181.75,
+      "pe": 299.31,
+      "potential_profit": 395.4,
+      "growth_of_company": 220.83
+   },
+   {
+      "name": "Tapestry",
+      "short_name": "TAPESTRY",
+      "code": "TPR",
+      "price_of_company": 12.02,
+      "current_price": 42.74,
+      "high_week_52": 49.67,
+      "low_week_52": 12.16,
+      "pe": 13.55,
+      "potential_profit": 308.47,
+      "growth_of_company": 198.07
+   },
+   {
+      "name": "The Mosaic Co",
+      "short_name": "THE MOSAIC",
+      "code": "MOS",
+      "price_of_company": 13.18,
+      "current_price": 34.47,
+      "high_week_52": 38.23,
+      "low_week_52": 11.52,
+      "pe": 25.26,
+      "potential_profit": 231.86,
+      "growth_of_company": 171.64
+   },
+   {
+      "name": "Enphase Energy Inc",
+      "short_name": "ENPHASE ENERGY",
+      "code": "ENPH",
+      "price_of_company": 18.45,
+      "current_price": 143.5,
+      "high_week_52": 229.03,
+      "low_week_52": 37.81,
+      "pe": 125.98,
+      "potential_profit": 505.74,
+      "growth_of_company": 159.87
+   },
+   {
+      "name": "Invesco Ltd",
+      "short_name": "INVESCO",
+      "code": "IVZ",
+      "price_of_company": 13.15,
+      "current_price": 28.79,
+      "high_week_52": 29.69,
+      "low_week_52": 9.25,
+      "pe": 8.72,
+      "potential_profit": 220.97,
+      "growth_of_company": 150.69
+   },
+   {
+      "name": "Quanta Services Inc.",
+      "short_name": "QUANTA SERVICES",
+      "code": "PWR",
+      "price_of_company": 12.84,
+      "current_price": 91.61,
+      "high_week_52": 101.96,
+      "low_week_52": 35.37,
+      "pe": 18.42,
+      "potential_profit": 188.27,
+      "growth_of_company": 142.81
+   },
+   {
+      "name": "PVH Corp.",
+      "short_name": "PVH",
+      "code": "PVH",
+      "price_of_company": 7.84,
+      "current_price": 108.57,
+      "high_week_52": 121.18,
+      "low_week_52": 41.77,
+      "pe": -44.03,
+      "potential_profit": 190.11,
+      "growth_of_company": 140.69
+   },
+   {
+      "name": "Under Armour Inc When Issued",
+      "short_name": "UNDER ARMOUR",
+      "code": "UA",
+      "price_of_company": 8.45,
+      "current_price": 18.27,
+      "high_week_52": 21.82,
+      "low_week_52": 8.1,
+      "pe": -55.67,
+      "potential_profit": 169.38,
+      "growth_of_company": 130.43
+   }
+]
